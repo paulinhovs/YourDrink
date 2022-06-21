@@ -13,13 +13,16 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       body: Container(
         width: double.infinity,
-        color: Color.fromARGB(255, 241, 232, 232),
+        color: Color.fromARGB(255, 0, 0, 0),
         child: Column(
           children: [
+            Padding(
+              padding: EdgeInsets.all(50.0),
+            ),
             Text(
               'Teste',
               style: TextStyle(color: Colors.red, fontSize: 20),
-            )
+            ),
           ],
         ),
       ),

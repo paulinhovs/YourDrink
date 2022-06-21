@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
       initialRoute: '/splash',
       routes: {
         '/splash': (_) => const SplashPage(),
-        '/home': (_) => HomePage(),
+        '/home': (_) => const HomePage(),
       },
     );
   }
